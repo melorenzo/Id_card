@@ -1,0 +1,50 @@
+body{ 
+    background-color:darkslategray;
+}
+
+.card{ 
+    margin-top: 3rem;
+    width: 40rem;
+    padding-top: 1rem;
+}
+.card-img-top{
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.animado {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) infinite;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate(-2px, 0);
+    }
+  
+    20%, 80% {
+      transform: translate(2px, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate(-4px, 0);
+    }
+  
+    40%, 60% {
+      transform: translate(4px, 0);
+    }
+  }
